@@ -33,8 +33,10 @@ usd.addEventListener('input',()  =>{
             let data = JSON.parse(request.response);
 
             uan.value = (usd.value * data.uan).toFixed(2);
+            eur.value = (usd.value * data.EUR).toFixed(2);
         }else{
             uan.value = 'Щось пішло не так';
+            eur.value = 'Щось пішло не так';
         }
     });
 });
@@ -49,9 +51,11 @@ eur.addEventListener('input',()  =>{
         if(request.readyState == 4 && request.status == 200 ){
             let data = JSON.parse(request.response);
 
-            uan.value = (eur.value * data.uany).toFixed(2);
+            uan.value = (eur.value * data.UAN).toFixed(2);
+            usd.value =(eur.value * data.USD).toFixed(2);
         }else{
             uan.value = 'Щось пішло не так';
+            usd.value = 'Щось пішло не так';
         }
     });
 });
