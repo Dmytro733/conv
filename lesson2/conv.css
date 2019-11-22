@@ -1,7 +1,7 @@
 
 
 body{
-    background-image: url(D:/програмування/JavaScript/lesson2/img/www.GetBg.net_Archive_Miscellaneous_chaotic_geometry_033953_.jpg);
+    background-image: url(https://img2.akspic.ru/image/80211-tehnologii-sinij-sinij_cvet-liniya-abstrakciya-1920x1080.jpg?attachment=1);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -13,14 +13,24 @@ body{
     width: 100%;
     text-align: center;
     font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
+}
+
+.header h1{
+    display: inline-block;
+    width: 650px;
+    border-radius:10px;
+    box-shadow: 0px 5px 15px 1px black;
 }
 
 .convertator{
     border: 1px solid black;
     border-radius: 5px;
-    width: 515px; 
+    width: 550px; 
     position: relative;
+    box-shadow: 0px 5px 15px 1px black;
 }
 
 .canturyUA{
@@ -28,9 +38,10 @@ body{
     width: 60px;
     margin: 20px 0 10px 10px;
     position: absolute;
-    background-image:url(D:/програмування/JavaScript/lesson2/img/screen-0.jpg);
-    background-size:74px;
-    border-radius: 20px;
+    background-image:url(https://lipis.github.io/flag-icon-css/flags/4x3/ua.svg);
+    background-size:60px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 1px black;
 }
 
 .canturyUS{
@@ -38,9 +49,10 @@ body{
     width: 60px;
     margin: 100px 0 10px 10px;
     position: absolute;
-    background-image:url(D:/програмування/JavaScript/lesson2/img/grunge_flag_usa.jpg);
-    background-size:80px;
-    border-radius: 20px;
+    background-image:url(https://lipis.github.io/flag-icon-css/flags/4x3/um.svg);
+    background-size:60px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 1px black;
 }
 
 .canturyEU{
@@ -48,21 +60,23 @@ body{
     width: 60px;
     margin: 178px 0 10px 10px;
     position: absolute;
-    background-image:url(D:/програмування/JavaScript/lesson2/img/ES-9395.jpg);
-    background-size: 77px;
-    border-radius: 20px;
+    background-image:url(http://hawaiisunpower.com/app-assets/fonts/flag-icon-css/flags/4x3/eu.svg);
+    background-size: 60px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 1px black;
 }
 
 input{
     border:none;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     width: 400px;
     height: 20px;   
     font-size: 30px;
     opacity: 0.5;
     float: right;
+    box-shadow: 0px 5px 15px 1px black;
 }
 
 
